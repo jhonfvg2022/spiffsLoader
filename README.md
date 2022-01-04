@@ -4,6 +4,8 @@ Tool ESP32 spiffs loader files html, json, csv, txt
 # Required dependencies
 https://arduinojson.org/v6/doc/installation/
 
+![image](https://user-images.githubusercontent.com/97078311/148014232-79a137b2-2a88-4929-a966-471490214e5d.png)
+
 # Tool spiffsLoader
 ![image](https://user-images.githubusercontent.com/97078311/148010462-695f1867-81a7-4d56-bb9d-f866aa092614.png)
 
