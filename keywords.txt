@@ -1,0 +1,3 @@
+initSpiffsLoader	KEYWORD1
+loop			    KEYWORD2
+
