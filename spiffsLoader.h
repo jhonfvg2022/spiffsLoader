@@ -25,8 +25,7 @@ private:
   void getFiles();
   void deleteFile(String filename);
   void deletesAll();
-  void getError();
-  void initSerial();
+  void getError();  
   void receiveSerial();
   void completeSerial();
   String _filename;

@@ -16,8 +16,7 @@ SpiffsLoader::SpiffsLoader()
 }
 
 void SpiffsLoader::initSpiffsLoader()
-{
-  initSerial();
+{  
   if (!SPIFFS.begin(true))
   {
     return;
@@ -126,14 +125,6 @@ void SpiffsLoader::getError()
 //----------------------------------------------------
 //private function Serial
 //----------------------------------------------------
-
-void SpiffsLoader::initSerial()
-{
-  Serial.begin(115200);
-  delay(100);
-  Serial.println("serial ok");
-}
-
 void SpiffsLoader::receiveSerial()
 {
   while (Serial.available())

@@ -9,7 +9,7 @@ AsyncWebServer server(80);
 SpiffsLoader loader;
 
 void setup() {
-  //Serial.begin(115200);
+  Serial.begin(115200);
   loader.initSpiffsLoader();    
   WiFi.begin(ssid, password);
   while (WiFi.status() != WL_CONNECTED) {
